@@ -1,6 +1,8 @@
 *{
-    font-family: 'Plus Jakarta Sans' , Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     margin: 0;
+    padding: 0;
 }
 .logo{
     margin-top: 30px;
@@ -14,6 +16,44 @@
 }
 .navbar-buttons{
     margin-right: 71px;
+    font-size: 16px;
+}
+.main-title, .para, .home-buttons{
+    display: flex;
+    justify-content: center;
+}
+.title-1{
+    margin-top: 227px;
+    width:749px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 66px;
+}
+.para, .para-2{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-top: 36px;
+}
+.get-started, .book-demo{
+    padding: 14px 20px;
+    margin-top: 36px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.get-started{
+    background-color: #DBF301;
+    margin-right:10px;
+    border: none;
+}
+.book-demo{
+    border: solid #DBF301 2px;
+    background-color: white;
+    margin-left:10px;
 }
 .signin{
     background: none;
@@ -21,6 +61,7 @@
     font-size: 16px;
     margin-top: 18px;
     line-height: 24px;
+    font-weight: 500;
 }
 .getstarted{
     font-size: 16px;
@@ -32,11 +73,26 @@
     margin-top: 20px;
     margin-left: 24px;
     gap: 8;
+    font-weight: 500;
 }
 .features, .our-team, .pricing{
     margin-top: 34px;
     margin-left: 50px;
     margin-right: 50px;
-    font-weight: 400;
+    font-weight: 500;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 263px;
+}
+.gumroad, .toyota, .barclays, .airbnb{
+    margin-top: 106px;
+    margin-bottom: 277px;
+    fill: 9C8F8F;
+}
+.para-2{
+    display: flex;
+    justify-content: center;
 }
 
