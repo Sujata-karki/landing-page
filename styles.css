@@ -1,0 +1,42 @@
+*{
+    font-family: 'Plus Jakarta Sans' , Helvetica, sans-serif;
+    margin: 0;
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 71px;
+}
+.nav-bar, .nav-items, .navbar-buttons{
+    display: flex;
+}
+.nav-bar{
+    justify-content: space-between;
+}
+.navbar-buttons{
+    margin-right: 71px;
+}
+.signin{
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin-top: 18px;
+    line-height: 24px;
+}
+.getstarted{
+    font-size: 16px;
+    padding: 14px 16px;
+    line-height: 24px;
+    background: #DBF301;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 24px;
+    gap: 8;
+}
+.features, .our-team, .pricing{
+    margin-top: 34px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 400;
+}
+
