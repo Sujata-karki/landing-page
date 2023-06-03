@@ -109,6 +109,38 @@
     max-width: 625px;
 }
 .card-content{
-    margin: 16px 0px 16px 40px;
-
+    margin: 14px 0px 14px 40px;
+}
+.card-img{
+    max-width: 239px;
+    max-height: 239px;
+}
+.last-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 239px;
+}
+.card-4,.card-5{
+    min-width: 318px;
+    min-height: 476px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.card-4{
+    background-color: rgba(72, 90, 255, 1);
+    color: white;
+}
+.card-5{
+    background-color: white;
+    border: rgba(229, 234, 241, 1) solid 1px;
+    color: #0F172A;
+}
+ul{
+    list-style-type:none ;
 }
