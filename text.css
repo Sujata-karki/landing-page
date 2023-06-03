@@ -1,0 +1,65 @@
+.main-title, .para, .home-buttons{
+    display: flex;
+    justify-content: center;
+}
+.title-1{
+    margin-top: 227px;
+    width:749px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 66px;
+}
+.para, .para-2{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-top: 36px;
+}
+.para-2{
+    display: flex;
+    justify-content: center;
+}
+.para-3,.para-5,.para-6{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 42px;
+}
+.para-4{
+    margin-top: 22px;
+    font-size: 16px;
+    max-width: 330px;
+    text-align: center;
+}
+.paragraph{
+    display: flex;
+    justify-content: center;
+    margin-top: 202px;
+}
+.para-5{
+    text-align: center;
+    width: 802px;
+}
+.para-6{
+    margin-top: 139px;
+}
+.para-7{
+    font-size: 16px;  
+    font-weight:600;
+    line-height: 28px;
+    margin: 0px 5px;
+}
+.para-8{
+    font-size: 16px;  
+    font-weight:500;
+    line-height: 24px;
+    margin: 0px 5px;
+    color: rgba(100, 116, 139, 1);
+}
+#para{
+    margin-top: 31px;
+}
+.card-para{
+    margin-top: 48px;
+}
