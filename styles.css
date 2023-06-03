@@ -4,6 +4,13 @@
     margin: 0;
     padding: 0;
 }
+.background-img{
+    background-image: url(images/Group\ 4170.svg);
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+}
 .logo{
     margin-top: 30px;
     margin-left: 71px;
@@ -17,24 +24,6 @@
 .navbar-buttons{
     margin-right: 71px;
     font-size: 16px;
-}
-.main-title, .para, .home-buttons{
-    display: flex;
-    justify-content: center;
-}
-.title-1{
-    margin-top: 227px;
-    width:749px;
-    text-align: center;
-    font-weight: 800;
-    font-size: 58px;
-    line-height: 66px;
-}
-.para, .para-2{
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: 400;
-    margin-top: 36px;
 }
 .get-started, .book-demo{
     padding: 14px 20px;
@@ -87,12 +76,39 @@
     margin-top: 263px;
 }
 .gumroad, .toyota, .barclays, .airbnb{
-    margin-top: 106px;
-    margin-bottom: 277px;
+    padding-top: 106px;
+    margin-bottom: 200px;
     fill: 9C8F8F;
 }
-.para-2{
-    display: flex;
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    justify-items: center;
+}
+.grid{
+    max-width: 330px;
     justify-content: center;
+    text-align: center;
+}
+.grid-img{
+    margin-top: 101px;
 }
 
+.img-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+}
+.card-2{
+    display: flex;
+    margin-top: 173px ;
+    justify-content: space-around;
+}
+.card-3{
+    display: flex;
+    max-width: 625px;
+}
+.card-content{
+    margin: 16px 0px 16px 40px;
+
+}
