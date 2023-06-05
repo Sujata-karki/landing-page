@@ -195,3 +195,46 @@ ul{
     -o-border-radius: 8px;
     margin-top: 37px;
 }
+.footer-container{
+    margin-top: 102px;
+    background-color: #110D33;
+    min-height: 337px;
+}
+.footer-hr{
+    border: 1px solid #464C56;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+.logo-footer{
+    margin-top: 108px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.footer-nav-items{
+    margin: 108px;
+    color: white;
+    display: flex;
+    
+}
+.footer-icons{
+    margin-top: 108px;
+    margin-bottom:101px; 
+}
+.twitter,.facebook,.instagram{
+    margin: 0px 8px;
+}
+.features-footer,.our-team-footer,.pricing-footer{
+    margin: 0px 40px;
+}
+.created{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 39px;
+    color: white;
+    text-align: center;
+    margin-bottom: 39px;
+}
